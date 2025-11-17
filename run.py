@@ -14,7 +14,7 @@ renato = User("Jorge", 19)
 @app.route("/")
 def hello_world():
     user = renato
-    informacao = "eu sou viado"
+    informacao = "eu sou ele"
     return f"Oi: {user.name} informação: {informacao}"
 @app.route("/compras")
 def compras():
